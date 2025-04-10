@@ -65,19 +65,19 @@ console.log(teas.Description());
 // 21. Merge two objects representing different teas into one
 
 
-    const teas1={
+    const tea1={
         Teaname:"masala Tea",
         teatype:"regular",
         Tea_caffeine_content:"high"
     }
 
-    const teas2={
+    const tea2={
 
         name:"adrak Tea",
         type:"regular",
         caffeine_content:"medium"
     }
 
-    const teas3={...teas1,  ...teas2}
+    const teas3={...tea1,  ...tea2}
 
     console.log(teas3);
