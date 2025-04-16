@@ -23,7 +23,7 @@ function Signup(){
             const data= await apiClient.signup(name,email,password)
             console.log(`Signup Response ${data}`)
         } catch (error) {
-            
+            console.log(error)
         }
     }
 
